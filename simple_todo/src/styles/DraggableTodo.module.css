@@ -1,0 +1,28 @@
+.dragContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.dragHandler {
+  padding: 10px 10px;
+  color: #000;
+  background: #606060;
+  border-radius: 3px;
+  cursor: grab;
+  border: 1px solid;
+}
+
+.dragElement {
+  position: relative;
+  display:flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.icon{
+  flex-grow: 1;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+}

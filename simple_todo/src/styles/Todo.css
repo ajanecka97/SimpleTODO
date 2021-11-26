@@ -1,0 +1,90 @@
+body > #root > div {
+  height: 100vh;
+}
+
+.MainContainer{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.Todo {
+  border: 3px solid black;
+  width: 50vw;
+  min-height: 75vh;
+  height: fit-content;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+.Todo-header{
+  padding-top: 2vh;
+  padding-left: 0.5vw;
+}
+
+.Todo-content{
+  padding-top: 2vh;
+}
+
+.Todo-item{
+  flex-grow: 10;
+
+  background-color: #808080;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 0.5vw;
+
+  display: grid;
+  grid-template-columns: 80% 10% 10%;
+}
+
+.Todo-item:hover{
+  background-color: #909090;
+}
+
+.Todo-item-general{
+  flex-grow: 10;
+}
+
+.TODOForm{
+  background-color: #d0d0d0;
+  border-top: 3px;
+  border-bottom: 3px;
+  border: solid;
+  border-color: #585858;
+
+  margin: 5px;
+  padding: 5px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.TODOForm-label-box{
+  margin: 5px;
+  padding: 5px;
+  vertical-align: middle;
+
+  flex-grow: 3;
+  display: flex;
+}
+
+.TODOForm-label{
+  flex-grow: 1
+}
+
+.TODOButton{
+  flex-grow: 1;
+  height: 50%;
+  vertical-align: middle;
+  align-self: center;
+  margin: 5px;
+}
+
+.TODOForm-item{
+  margin: 5px;
+  padding: 5px;
+  flex-grow: 3;
+}

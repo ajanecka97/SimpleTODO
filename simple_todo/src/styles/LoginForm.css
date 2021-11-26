@@ -1,0 +1,24 @@
+.Form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.Form-row{
+  margin: 5%;
+
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.Form-item{
+  height: 100%;
+}
+
+.Form-button{
+  max-width: 20%;
+  margin-left: 75%;
+
+  height: 50px;
+}
